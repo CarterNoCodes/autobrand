@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autobrand - Premier Web Development and Design</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+    <div class="logo">
+        <img src="\assets\logo.png" alt="Autobrand Logo">
+    </div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="theme-toggle">
+        <i class="fas fa-lightbulb"></i>
+    </div>
+    <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+</nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <video autoplay muted loop id="hero-video">
+                <source src="https://videos.pexels.com/video-files/6721076/6721076-uhd_2732_1440_30fps.mp4" type="video/mp4">
+            </video>
+            <div class="hero-content">
+                <h1>Transforming Ideas into Digital Reality</h1>
+                <p>Innovative web solutions for forward-thinking businesses</p>
+                <a href="#contact" class="cta-button">Get Started</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Autobrand</h2>
+            <p>We are a premier web development and design agency, dedicated to creating stunning, functional websites that drive results for our clients.</p>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Web Design</h3>
+                    <p>Beautiful, user-friendly designs that captivate your audience.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Robust, scalable web applications built with cutting-edge technologies.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-search"></i>
+                    <h3>SEO Optimization</h3>
+                    <p>Boost your online visibility and reach your target audience.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Digital Marketing</h3>
+                    <p>Comprehensive strategies to grow your online presence and drive conversions.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial-slider">
+        <!-- Testimonials will be dynamically inserted here -->
+    </div>
+    <div class="testimonial-nav">
+    <button class="prev-testimonial"><i class="fas fa-arrow-left"></i></button>
+    <button class="next-testimonial"><i class="fas fa-arrow-right"></i></button>
+</div>
+</section>
+
+        <section id="portfolio" class="portfolio">
+            <h2>Our Recent Work</h2>
+            <div class="portfolio-grid">
+                <!-- Portfolio items will be inserted here dynamically -->
+            </div>
+            <a href="portfolio.html" class="cta-button">View All Projects</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Autobrand. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
